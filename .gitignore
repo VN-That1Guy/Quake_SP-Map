@@ -2,4 +2,7 @@
 *.json
 *.obj
 *.bsp
-/autosave/*/*.map*
+*.log
+*.pts
+/[Aa]utosave/*.map*
+*-compile.map
