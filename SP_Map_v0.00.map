@@ -4056,11 +4056,11 @@
 // brush 0
 {
 ( 1176 120 912 ) ( 1176 121 912 ) ( 1176 120 913 ) *tele01 [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
-( 1176 120 912 ) ( 1176 120 913 ) ( 1177 120 912 ) *tele01 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 1176 96 912 ) ( 1176 96 913 ) ( 1177 96 912 ) *tele01 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
 ( 1176 120 920 ) ( 1177 120 920 ) ( 1176 121 920 ) *tele01 [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
-( 1296 264 1064 ) ( 1296 265 1064 ) ( 1297 264 1064 ) *tele01 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
-( 1296 264 920 ) ( 1297 264 920 ) ( 1296 264 921 ) *tele01 [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
-( 1344 264 920 ) ( 1344 264 921 ) ( 1344 265 920 ) *tele01 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 1296 264 1056 ) ( 1296 265 1056 ) ( 1297 264 1056 ) *tele01 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 1296 288 920 ) ( 1297 288 920 ) ( 1296 288 921 ) *tele01 [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 1264 264 920 ) ( 1264 264 921 ) ( 1264 265 920 ) *tele01 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
 // entity 24
@@ -10047,49 +10047,29 @@
 // entity 182
 {
 "classname" "item_spikes"
-"origin" "328 216 944"
+"origin" "328 184 944"
 }
 // entity 183
 {
 "classname" "item_spikes"
-"origin" "328 152 944"
+"origin" "280 184 944"
 }
 // entity 184
 {
-"classname" "item_spikes"
-"origin" "280 152 944"
+"classname" "item_shells"
+"origin" "-48 176 944"
 }
 // entity 185
 {
-"classname" "item_spikes"
-"origin" "280 216 944"
+"classname" "item_shells"
+"origin" "-104 176 944"
 }
 // entity 186
-{
-"classname" "item_shells"
-"origin" "-48 144 944"
-}
-// entity 187
-{
-"classname" "item_shells"
-"origin" "-104 144 944"
-}
-// entity 188
-{
-"classname" "item_shells"
-"origin" "-48 208 944"
-}
-// entity 189
-{
-"classname" "item_shells"
-"origin" "-104 208 944"
-}
-// entity 190
 {
 "classname" "item_health"
 "origin" "112 176 944"
 }
-// entity 191
+// entity 187
 {
 "classname" "trigger_teleport"
 "target" "Conference_Tele_Dest3"
@@ -10104,7 +10084,7 @@
 ( 1696 1568 2024 ) ( 1696 1568 2025 ) ( 1696 1569 2024 ) trigger [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 192
+// entity 188
 {
 "classname" "trigger_teleport"
 "target" "Conference_Tele_Dest4"
@@ -10119,7 +10099,7 @@
 ( 1696 1696 2024 ) ( 1696 1696 2025 ) ( 1696 1697 2024 ) trigger [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 193
+// entity 189
 {
 "classname" "trigger_teleport"
 "target" "Conference_Tele_Dest2"
@@ -10134,7 +10114,7 @@
 ( 1776 1632 2024 ) ( 1776 1632 2025 ) ( 1776 1633 2024 ) trigger [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 194
+// entity 190
 {
 "classname" "trigger_teleport"
 "targetname" "Conference_Wave2_Tele"
@@ -10149,7 +10129,7 @@
 ( 1440 1472 2024 ) ( 1440 1472 2025 ) ( 1440 1473 2024 ) trigger [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 195
+// entity 191
 {
 "classname" "trigger_teleport"
 "target" "Conference_Tele_Dest2"
@@ -10164,7 +10144,7 @@
 ( 1440 1568 2024 ) ( 1440 1568 2025 ) ( 1440 1569 2024 ) trigger [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 196
+// entity 192
 {
 "classname" "trigger_teleport"
 "targetname" "Conference_Wave2_Tele3"
@@ -10179,7 +10159,7 @@
 ( 1352 1520 2024 ) ( 1352 1520 2025 ) ( 1352 1521 2024 ) trigger [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 197
+// entity 193
 {
 "classname" "trigger_relay"
 "origin" "1312 1488 2088"
@@ -10187,7 +10167,7 @@
 "delay" "3.2"
 "target" "Conference_Wave2_Tele3"
 }
-// entity 198
+// entity 194
 {
 "classname" "trigger_relay"
 "origin" "1400 1440 2088"
@@ -10195,7 +10175,7 @@
 "target" "Conference_Wave2_Tele"
 "delay" "3"
 }
-// entity 199
+// entity 195
 {
 "classname" "trigger_relay"
 "origin" "1400 1544 2088"
@@ -10203,7 +10183,7 @@
 "target" "Conference_Wave2_Tele2"
 "delay" "3.1"
 }
-// entity 200
+// entity 196
 {
 "classname" "trigger_relay"
 "origin" "1664 1664 2112"
@@ -10211,7 +10191,7 @@
 "target" "Conference_Wave3_Tele3"
 "delay" "3"
 }
-// entity 201
+// entity 197
 {
 "classname" "trigger_relay"
 "origin" "1664 1528 2112"
@@ -10219,7 +10199,7 @@
 "delay" "3.1"
 "target" "Conference_Wave3_Tele2"
 }
-// entity 202
+// entity 198
 {
 "classname" "trigger_relay"
 "origin" "1744 1592 2112"
@@ -10227,7 +10207,7 @@
 "delay" "3.2"
 "target" "Conference_Wave3_Tele1"
 }
-// entity 203
+// entity 199
 {
 "classname" "trigger_counter"
 "origin" "1728 1304 2160"
@@ -10237,7 +10217,7 @@
 "targetname" "Conference_W1_Counter"
 "count" "4"
 }
-// entity 204
+// entity 200
 {
 "classname" "trigger_counter"
 "origin" "1376 1504 2152"
@@ -10247,7 +10227,7 @@
 "delay" "0"
 "message" "Wave 2 Complete!"
 }
-// entity 205
+// entity 201
 {
 "classname" "trigger_counter"
 "origin" "1720 1560 2152"
@@ -10256,7 +10236,7 @@
 "count" "3"
 "delay" "3"
 }
-// entity 206
+// entity 202
 {
 "classname" "func_illusionary"
 // brush 0
@@ -10269,13 +10249,13 @@
 ( 1192 304 936 ) ( 1192 304 937 ) ( 1192 305 936 ) skip [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 207
+// entity 203
 {
 "classname" "info_player_start"
 "origin" "256 -3968 96"
 "angle" "90"
 }
-// entity 208
+// entity 204
 {
 "classname" "trigger_once"
 "message" "Congratulations! You've beaten this map! There are no more things left to do"
